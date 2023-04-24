@@ -1,0 +1,213 @@
+body{
+    background-color: #F8F7F2;
+}
+
+.topnav{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.topnav h2{
+    display: block;
+    font-family: 'Architects Daughter', cursive;
+    color: #0E2F3E;
+    font-size: 28px;
+    padding: 0;
+    margin: 0 0;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.topnav li{
+    float: left;
+}
+
+.topnav a{
+    display: block;
+    padding-inline: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E;
+    font-size: 14px;
+    transition: ease-in .5s;
+}   
+
+.topnav a:hover{
+    color: #286F6C;
+    text-decoration: underline;
+
+}
+.topnav p{
+    display: block;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E;
+    padding: 0;
+    margin: 0 0;
+    font-size: 14px;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#itemleft{
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto 0;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E;
+    text-align: left;
+}
+
+#itemleft h1{
+    font-size: 4em;
+    margin: 0 0;
+    padding-bottom: 2rem;
+    line-height: 1.2em;
+}
+
+#itemleft p {
+    margin:0;
+}
+
+#itemleft h3 {
+    margin:0;
+}
+
+#itemleft img{
+    display: inline;
+    height: 25px;
+    padding: 5px 0;
+}
+
+#itemmid{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+    row-gap: 7rem;
+    align-items: center;
+}
+
+#itemright img{
+    height: 700px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.grid-wrapper {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+}
+
+.card {
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.1);
+    width: 24rem;
+    height: 4rem;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-block-end: 20px;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.card img{
+    height: 50px;
+    float: left;
+    flex-basis: auto;
+}
+
+.card p{
+    padding-left: 15px;
+}
+
+.grid-right{
+    padding: 2rem 16rem 2rem 0rem;
+}
+
+.row {
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E; 
+    padding-bottom: 3rem;
+}
+
+.row h1{
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.row a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: #0E2F3E;
+    font-size: 14px;
+    transition: ease-in .5s;
+} 
+
+.row a:hover{
+    color: #286F6C;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.container img{
+    height: 3rem;
+    padding-top: 2rem;
+}
+
+.flex-item {
+    flex-basis: 30%; 
+}
+
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item{
+    font-family: 'Poppins', sans-serif;
+    color: #0E2F3E;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 2rem;
+}
+.footer h2{
+    font-family: 'Architects Daughter', cursive;
+    color: #0E2F3E;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
